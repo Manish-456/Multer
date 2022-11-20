@@ -1,0 +1,39 @@
+.box{
+ width: 100%;
+ background-color: rgba(221, 224, 217, 0.614);
+ height: 100vh;
+  
+}
+.boxWrapper{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ gap: 20px; 
+}
+
+.boxItem{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+
+}
+.boxCenter{
+ border-bottom: 1px dotted gray;
+}
+.boxHr{
+ margin-top: 20px;
+}
+.boxButton{
+ padding: 10px;
+ font-size: 15px;
+ background-color: green;
+ color: white;
+ border: none;
+ border-radius: 10px;
+ margin: 10px auto;
+
+}
+.numberInput{
+ width: 30px;
+
+}
